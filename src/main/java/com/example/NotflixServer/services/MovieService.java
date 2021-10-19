@@ -18,7 +18,7 @@ public class MovieService {
 
     public MovieService(MovieRepository movieRepository) {
         this.movieRepository = movieRepository;
-        List<Movie> movies = (List<Movie>)this.movieRepository.findAll();
+        List<Movie> movies = (List<Movie>) this.movieRepository.findAll();
 
         if (movies.size() == 0) {
             this.movieRepository.save(new Movie("herRuccntNE",
@@ -62,6 +62,15 @@ public class MovieService {
 
     public Iterable<Movie> getAllMovies() {
         return movieRepository.findAll();
+    }
+
+    public Optional<Movie> getMovieById(String id) {
+        if (movieRepository.existsById(id)) {
+            return movieRepository.findById(id);
+        } else {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Movie doesn't exist!");
+        }
+
     }
 
     public Movie saveMovie(Movie movie) {
