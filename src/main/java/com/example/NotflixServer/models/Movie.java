@@ -16,15 +16,17 @@ public class Movie {
     private int rate;
     @Column(length = 1200)
     private String description;
+    private String imageUrl;
 
     public Movie() {}
 
-    public Movie(String id, String title, String genre, int rate, String description) {
+    public Movie(String id, String title, String genre, int rate, String description, String imageUrl) {
         this.id = id;
         this.title = title;
         this.genre = genre;
         this.rate = rate;
         this.description = description;
+        this.imageUrl = imageUrl;
     }
 
     public String getId() {
@@ -67,14 +69,23 @@ public class Movie {
         this.description = description;
     }
 
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
     @Override
     public String toString() {
         return "Movie{" +
                 "id='" + id + '\'' +
                 ", title='" + title + '\'' +
                 ", genre='" + genre + '\'' +
-                ", rate='" + rate + '\'' +
+                ", rate=" + rate +
                 ", description='" + description + '\'' +
+                ", imageUrl='" + imageUrl + '\'' +
                 '}';
     }
 }

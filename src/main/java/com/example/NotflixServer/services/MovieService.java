@@ -25,37 +25,43 @@ public class MovieService {
                     "Inception",
                     "science fiction",
                     5,
-                    "Your mind is the scene of the crime. Box-office superstar Leonardo DiCaprio stars in this contemporary science fiction action film set within the architecture of the mind. Written, directed and produced by Oscar® and Golden Globe nominee Christopher Nolan (The Dark Knight Trilogy, Interstellar, The Prestige), this eagerly awaited follow-up to 2008's billion-dollar blockbuster is yet another visionary tale from a startingly original filmmaker who continually raises the bar with every film he makes. Shooting in London, Paris, Tangiers, Calgary and Los Angeles, Nolan's mind-bending film also stars Academy Award® winners Michael Caine and Marion Cotillard, in addition to Juno's Elliot Page, Batman Begins' Cillian Murphy and Oscar® nominees Ken Watanabe (The Last Samurai) and Tom Berenger (Platoon)."
+                    "Your mind is the scene of the crime. Box-office superstar Leonardo DiCaprio stars in this contemporary science fiction action film set within the architecture of the mind. Written, directed and produced by Oscar® and Golden Globe nominee Christopher Nolan (The Dark Knight Trilogy, Interstellar, The Prestige), this eagerly awaited follow-up to 2008's billion-dollar blockbuster is yet another visionary tale from a startingly original filmmaker who continually raises the bar with every film he makes. Shooting in London, Paris, Tangiers, Calgary and Los Angeles, Nolan's mind-bending film also stars Academy Award® winners Michael Caine and Marion Cotillard, in addition to Juno's Elliot Page, Batman Begins' Cillian Murphy and Oscar® nominees Ken Watanabe (The Last Samurai) and Tom Berenger (Platoon).",
+                    "https://media.s-bol.com/ml41z310G6A/550x780.jpg"
             ));
             this.movieRepository.save(new Movie("NyRD_8HKRMY",
                     "The Revenant",
                     "action",
                     4,
-                    "Leonardo DiCaprio stars in this critically acclaimed epic adventure inspired by true events from writer-director Alejandro G. . While on a hunting expedition in the American wilderness, Hugh Glass (DiCaprio) is attacked by a bear and left for dead. Despite unimaginable grief and betrayal by his confidant (Tom Hardy), Glass must navigate a vicious winter in a relentless pursuit to live."
+                    "Leonardo DiCaprio stars in this critically acclaimed epic adventure inspired by true events from writer-director Alejandro G. . While on a hunting expedition in the American wilderness, Hugh Glass (DiCaprio) is attacked by a bear and left for dead. Despite unimaginable grief and betrayal by his confidant (Tom Hardy), Glass must navigate a vicious winter in a relentless pursuit to live.",
+                    "https://upload.wikimedia.org/wikipedia/en/b/b6/The_Revenant_2015_film_poster.jpg"
             ));
             this.movieRepository.save(new Movie("hvAL_RMwWfE",
                     "Saving Private Ryan",
                     "action",
                     3,
-                    "Based on a World War II drama. US soldiers try to save their comrade, paratrooper Private Ryan, who's stationed behind enemy lines."
+                    "Based on a World War II drama. US soldiers try to save their comrade, paratrooper Private Ryan, who's stationed behind enemy lines.",
+                    "https://images.pathe-thuis.nl/14954_378x538.jpg"
             ));
             this.movieRepository.save(new Movie("8Pf8BkFLBRw",
                     "The Godfather",
                     "drama",
                     5,
-                    "Director Coppola paints a chilling portrait of the Sicilian clan's rise and near fall from power in America, masterfully balancing the story between the Corleone's family life and the ugly crime business in which they are engaged."
+                    "Director Coppola paints a chilling portrait of the Sicilian clan's rise and near fall from power in America, masterfully balancing the story between the Corleone's family life and the ugly crime business in which they are engaged.",
+                    "https://media.s-bol.com/xkqpRqQ88mLl/550x788.jpg"
             ));
             this.movieRepository.save(new Movie("hf_lCA-T99c",
                     "Forrest Gump",
                     "comedy",
                     4,
-                    "Stupid is as stupid does, says Forrest Gump (played by Tom Hanks in an Oscar-winning performance) as he discusses his relative level of intelligence with a stranger while waiting for a bus."
+                    "Stupid is as stupid does, says Forrest Gump (played by Tom Hanks in an Oscar-winning performance) as he discusses his relative level of intelligence with a stranger while waiting for a bus.",
+                    "https://images.pathe-thuis.nl/18312_450x640.jpg"
             ));
             this.movieRepository.save(new Movie("3rd1L6vMcsM",
                     "Finding Nemo",
                     "animation",
                     3,
-                    "Duik mee in Finding Nemo, een hilarisch avontuur vol kleurrijke figuren, dat je meeneemt naar de adembenemende onderwaterwereld van het Groot Barrièrerif voor de kust van Australië. Als de avontuurlijke, jonge clown vis Nemo gevangen wordt door een duiker, gaat zijn over-beschermende vader Marlin samen met Dory, een lieve maar nogal vergeetachtige doktersvis, op een onvergetelijke zoektocht om Nemo weer thuis te brengen."
+                    "Duik mee in Finding Nemo, een hilarisch avontuur vol kleurrijke figuren, dat je meeneemt naar de adembenemende onderwaterwereld van het Groot Barrièrerif voor de kust van Australië. Als de avontuurlijke, jonge clown vis Nemo gevangen wordt door een duiker, gaat zijn over-beschermende vader Marlin samen met Dory, een lieve maar nogal vergeetachtige doktersvis, op een onvergetelijke zoektocht om Nemo weer thuis te brengen.",
+                    "https://images.pathe-thuis.nl/7524_378x538.jpg"
             ));
         }
     }

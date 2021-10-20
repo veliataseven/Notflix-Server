@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 
+//@CrossOrigin("http://localhost:4200")
 @RestController
 @RequestMapping("api/movie/")
 public class MovieController {
